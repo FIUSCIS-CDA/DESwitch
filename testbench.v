@@ -1,5 +1,6 @@
 module testbench();
 
+// Note: Testbench is designed to start on the falling edge
 reg clk, reset, D, E;
 wire Q;
 

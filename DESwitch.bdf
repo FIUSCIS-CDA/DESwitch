@@ -350,18 +350,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (connector
-	(pt 488 128)
-	(pt 760 128)
-)
-(connector
-	(pt 760 128)
-	(pt 760 232)
-)
-(connector
-	(pt 760 232)
-	(pt 792 232)
-)
-(connector
 	(pt 488 248)
 	(pt 488 192)
 )
@@ -384,10 +372,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 872 240)
 	(pt 872 432)
-)
-(connector
-	(pt 640 200)
-	(pt 664 200)
 )
 (connector
 	(pt 336 392)
@@ -416,18 +400,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 320 200)
 	(pt 576 200)
-)
-(connector
-	(pt 664 200)
-	(pt 664 240)
-)
-(connector
-	(pt 664 240)
-	(pt 688 240)
-)
-(connector
-	(pt 752 248)
-	(pt 792 248)
 )
 (connector
 	(pt 288 128)
@@ -474,18 +446,6 @@ refer to the applicable agreement for further details.
 	(pt 544 336)
 )
 (connector
-	(pt 608 328)
-	(pt 624 328)
-)
-(connector
-	(pt 624 328)
-	(pt 624 248)
-)
-(connector
-	(pt 624 248)
-	(pt 688 248)
-)
-(connector
 	(pt 440 440)
 	(pt 488 440)
 )
@@ -522,16 +482,61 @@ refer to the applicable agreement for further details.
 	(pt 520 472)
 )
 (connector
+	(pt 640 200)
+	(pt 664 200)
+)
+(connector
+	(text "DEclk" (rect 648 207 665 234)(font "Intel Clear" )(vertical))
+	(pt 664 200)
+	(pt 664 240)
+)
+(connector
+	(pt 664 240)
+	(pt 688 240)
+)
+(connector
+	(pt 608 328)
+	(pt 624 328)
+)
+(connector
+	(text "QAND___NOTclk___" (rect 608 233 625 333)(font "Intel Clear" )(vertical))
+	(pt 624 328)
+	(pt 624 248)
+)
+(connector
+	(pt 624 248)
+	(pt 688 248)
+)
+(connector
 	(pt 584 464)
 	(pt 640 464)
 )
 (connector
+	(text "QAND___notE___" (rect 624 381 641 467)(font "Intel Clear" )(vertical))
 	(pt 640 464)
 	(pt 640 256)
 )
 (connector
 	(pt 640 256)
 	(pt 688 256)
+)
+(connector
+	(text "Qprime" (rect 762 232 797 249)(font "Intel Clear" ))
+	(pt 752 248)
+	(pt 792 248)
+)
+(connector
+	(pt 488 128)
+	(pt 760 128)
+)
+(connector
+	(text "NOTreset" (rect 744 184 761 228)(font "Intel Clear" )(vertical))
+	(pt 760 128)
+	(pt 760 232)
+)
+(connector
+	(pt 792 232)
+	(pt 760 232)
 )
 (junction (pt 872 240))
 (junction (pt 336 248))
