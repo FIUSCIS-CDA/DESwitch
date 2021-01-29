@@ -370,10 +370,6 @@ refer to the applicable agreement for further details.
 	(pt 576 208)
 )
 (connector
-	(pt 872 240)
-	(pt 872 432)
-)
-(connector
 	(pt 336 392)
 	(pt 336 248)
 )
@@ -406,14 +402,6 @@ refer to the applicable agreement for further details.
 	(pt 440 128)
 )
 (connector
-	(pt 856 240)
-	(pt 872 240)
-)
-(connector
-	(pt 872 240)
-	(pt 1016 240)
-)
-(connector
 	(pt 336 472)
 	(pt 336 440)
 )
@@ -424,62 +412,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 336 440)
 	(pt 392 440)
-)
-(connector
-	(pt 440 392)
-	(pt 512 392)
-)
-(connector
-	(pt 512 392)
-	(pt 512 320)
-)
-(connector
-	(pt 512 320)
-	(pt 544 320)
-)
-(connector
-	(pt 520 432)
-	(pt 520 336)
-)
-(connector
-	(pt 520 336)
-	(pt 544 336)
-)
-(connector
-	(pt 440 440)
-	(pt 488 440)
-)
-(connector
-	(pt 488 440)
-	(pt 488 456)
-)
-(connector
-	(pt 488 456)
-	(pt 520 456)
-)
-(connector
-	(pt 760 432)
-	(pt 760 504)
-)
-(connector
-	(pt 760 504)
-	(pt 488 504)
-)
-(connector
-	(pt 520 432)
-	(pt 760 432)
-)
-(connector
-	(pt 760 432)
-	(pt 872 432)
-)
-(connector
-	(pt 488 504)
-	(pt 488 472)
-)
-(connector
-	(pt 488 472)
-	(pt 520 472)
 )
 (connector
 	(pt 640 200)
@@ -537,6 +469,77 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 792 232)
 	(pt 760 232)
+)
+(connector
+	(text "NOTclk" (rect 450 376 485 393)(font "Intel Clear" ))
+	(pt 440 392)
+	(pt 512 392)
+)
+(connector
+	(pt 512 392)
+	(pt 512 320)
+)
+(connector
+	(pt 512 320)
+	(pt 544 320)
+)
+(connector
+	(text "NOTE" (rect 450 424 477 441)(font "Intel Clear" ))
+	(pt 440 440)
+	(pt 488 440)
+)
+(connector
+	(pt 488 440)
+	(pt 488 456)
+)
+(connector
+	(pt 488 456)
+	(pt 520 456)
+)
+(connector
+	(pt 872 240)
+	(pt 872 432)
+)
+(connector
+	(pt 856 240)
+	(pt 872 240)
+)
+(connector
+	(text "NOTresetANDQprime" (rect 882 224 983 241)(font "Intel Clear" ))
+	(pt 872 240)
+	(pt 1016 240)
+)
+(connector
+	(pt 520 432)
+	(pt 520 336)
+)
+(connector
+	(pt 520 336)
+	(pt 544 336)
+)
+(connector
+	(pt 760 432)
+	(pt 760 504)
+)
+(connector
+	(pt 760 504)
+	(pt 488 504)
+)
+(connector
+	(pt 520 432)
+	(pt 760 432)
+)
+(connector
+	(pt 760 432)
+	(pt 872 432)
+)
+(connector
+	(pt 488 504)
+	(pt 488 472)
+)
+(connector
+	(pt 488 472)
+	(pt 520 472)
 )
 (junction (pt 872 240))
 (junction (pt 336 248))
