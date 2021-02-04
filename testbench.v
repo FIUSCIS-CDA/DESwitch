@@ -1,6 +1,5 @@
 module testbench();
 
-// Note: Testbench is designed to start on the falling edge
 reg clk, reset, D, E;
 wire Q;
 
@@ -15,7 +14,7 @@ end
 DESwitch myRegister(reset, clk, D, E, Q);
 
 initial begin
-reset=1;  #CLK_PERIOD;
+reset=1;  #(CLK_PERIOD/2);
 reset=0;D=1;E=0; #(CLK_PERIOD/4);
 if (Q !== 0) begin
    $display("Error: Register changed on falling edge"); $stop;
