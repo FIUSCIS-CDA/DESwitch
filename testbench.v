@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////////
-// Testbench for Component: DESwitch
+// Testbench for Component: DESwitch (CLK=20)
 // Package: FIUSCIS-CDA
 // Course: CDA3102 (Computer Architecture), Florida International University
 // Developer: Trevor Cickovski
@@ -23,12 +23,6 @@ wire Q;
 // Component is CLOCKED
 // Set clk period to 20 in wave
 localparam CLK_PERIOD=20;
-
-always @*
-begin
-   clk <= 0;  # (CLK_PERIOD/2);
-   clk <= 1;  # (CLK_PERIOD/2);
-end
 ///////////////////////////////////////////////////////////////////////////////////
 
 
