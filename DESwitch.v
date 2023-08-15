@@ -15,7 +15,7 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
-// CREATED		"Wed May 11 10:42:35 2022"
+// CREATED		"Tue Aug 15 11:00:52 2023"
 
 module DESwitch(
 	E,
